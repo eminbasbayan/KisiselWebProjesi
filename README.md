@@ -1,7 +1,7 @@
 
 # KisiselWebProjesi
 
- - Asp.Net Mvc İle Kişisel Web Sitesi Entity FrameWork Code First Yapısı
+ - Asp.Net Mvc İle Kişisel Web Sitesi Entity Framework Code First Yapısı
    Kullanılarak Yapılmıştır.
  - Proje Yapımında Ana Sayfa Ve Admin Login Sayfasında Sadece Html Ve
    Css Kullanılmıştır.
