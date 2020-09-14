@@ -1,0 +1,27 @@
+﻿@using KisiselWebProjesi.Models.Siniflar
+@model List<ikonlar>
+@{
+    ViewBag.Title = "ikonListesi";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+    <h2 class="mb-4">İkonlar Sayfası</h2>
+<table class="table table-bordered">
+    <tr>
+        <th>Id</th>
+        <th>İkon</th>
+        <th>Güncelle</th>
+        <th>Sil</th>
+    </tr>
+
+    @foreach (var x in Model)
+    {
+        <tr>
+            <td>@x.id</td>
+            <td><i class="@x.ikon"></i></td>
+            <td><a href="/Admin/ikonGetir/@x.id" class="btn btn-primary">Güncelle</a></td>
+            <td><a href="/Admin/ikonSil/@x.id" class="btn btn-danger">Sil</a></td>
+        </tr>
+    }
+</table>
+<a href="/Admin/YeniIkon/" class="btn btn-primary">Yeni İkon Ekle</a>
+

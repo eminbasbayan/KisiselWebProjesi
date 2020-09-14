@@ -1,0 +1,18 @@
+﻿@model KisiselWebProjesi.Models.Siniflar.ikonlar
+@{
+    ViewBag.Title = "YeniIkon";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Yeni Ikon Ekle</h2>
+<br />
+<form class="form-group" method="post">
+    @Html.LabelFor(x => x.ikon)
+    @Html.TextBoxFor(x => x.ikon, new { @class = "form-control" })
+    <br />
+    @Html.LabelFor(x => x.link)
+    @Html.TextBoxFor(x => x.link, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-success">İkon Ekle</button>
+</form>
+

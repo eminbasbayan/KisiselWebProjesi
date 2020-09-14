@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: white;
+    font-family: sans-serif;
+    background-image: url(khanjan-chhaya-Ec6sCS_aW2c-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.center .avatar img{
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    margin-top: 5%;
+}
+
+.center{
+    width: 600px;
+    background-color: rgba(0,0,0,0.7);
+    height: 550px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.content{
+    padding: 30px;
+}
+
+h1{
+    color: wheat;
+}
+
+.content h2,
+p{
+    font-weight: lighter;
+    letter-spacing: 1px;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.content h3{
+    margin-top: 20px;
+}
+
+div.social i{
+    padding: 0 10px;
+    font-size: 50px;
+    color: rgba(255,255,255,0.6);
+    transition: 0.4s;
+}
+
+div.social i:hover{
+    color: rgba(255,255,255,1);
+}
+
+@media screen and (max-width:700px){
+    .center{
+        width: 300px;
+        height: 500px;
+    }
+
+    h1{
+        font-size: 22px;
+    }
+
+    h2{
+        font-size: 16px;
+    }
+
+    p{
+        width: 90%;
+        font-size: 12px;
+    }
+
+    h3{
+        font-size: 14px;
+    }
+
+    .social a i{
+        font-size: 35px;
+    }
+}
