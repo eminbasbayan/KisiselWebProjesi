@@ -19,7 +19,7 @@ Admin Temasında Bootstrap CDN Eklenip Buton Ve Tablolar Bootstrap ile yapılmı
 
 # Veri Tabanı Oluşturma
 Veri Tabanın Oluşturmak İçin Web.Config Dosya Ayarlarındaki Data Source Kısmına Kendi Sql Serverınızı Yazmanız Gerekiyor.
-Sonrasında Pacgake Manager Console Kısmına *Enabled-Migrations* Yazıp Enter Tuşuna Basınız.
+Sonrasında Pacgake Manager Console Kısmına >Enabled-Migrations Yazıp Enter Tuşuna Basınız.
 Oluşan Configurations Dosyası İçeriğini *AutomaticMigrationsEnabled = true;* Şeklinde Değiştiriniz.
 Sonrasında *update-database* Yazıp Enter Tuşuna Basınız.
 Bu İşlemleri Tam Olarak Yaptığınızda Veri Tabanı Oluşup Projeyi Başlattığınızda Proje Sorunsuz Çalışır.
