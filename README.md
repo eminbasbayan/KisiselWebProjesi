@@ -1,9 +1,17 @@
 
 # KisiselWebProjesi
-Asp.Net Mvc İle Kişisel Web Sitesi Entity FrameWork Code First Yapısı Kullanılarak Yapılmıştır.
-Proje Yapımında Ana Sayfa Ve Admin Login Sayfasında Sadece Html Ve Css Kullanılmıştır. 
-Admin Teması w3schools Sidebar Bölümünden Alınmış Ve Üzerinde Bir Kaç Değişiklik Yapılmıştır.
-Admin Temasında Bootstrap CDN Eklenip Buton Ve Tablolar Bootstrap ile yapılmıştır.
+
+ - Asp.Net Mvc İle Kişisel Web Sitesi Entity FrameWork Code First Yapısı
+   Kullanılarak Yapılmıştır.
+ - Proje Yapımında Ana Sayfa Ve Admin Login Sayfasında Sadece Html Ve
+   Css Kullanılmıştır.
+ - Admin Teması w3schools Sidebar Bölümünden Alınmış Ve Üzerinde Bir Kaç
+   Değişiklik Yapılmıştır.
+ - Admin Temasında Bootstrap CDN Eklenip Buton Ve Tablolar Bootstrap ile
+   yapılmıştır.
+ - [Projenin Tamamının Videolu Anlatımı İçin
+   Tıkla](https://www.youtube.com/playlist?list=PLdz-gps4GThyciJ7YhwsibPXjoJW762RS)
+
 # Projeden Görüntüler
 
 **Ana Sayfa**
@@ -29,3 +37,5 @@ Admin Temasında Bootstrap CDN Eklenip Buton Ve Tablolar Bootstrap ile yapılmı
  4. Sonrasında `update-database` Yazıp Enter Tuşuna Basınız.
  5. Bu İşlemleri Tam Olarak Yaptığınızda Veri Tabanı Oluşup Projeyi
     Başlattığınızda Proje Sorunsuz Çalışır.
+ 
+   
