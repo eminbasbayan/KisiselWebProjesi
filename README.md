@@ -1,3 +1,4 @@
+
 # KisiselWebProjesi
 Asp.Net Mvc İle Kişisel Web Sitesi Entity FrameWork Code First Yapısı Kullanılarak Yapılmıştır.
 Proje Yapımında Ana Sayfa Ve Admin Login Sayfasında Sadece Html Ve Css Kullanılmıştır. 
@@ -18,8 +19,13 @@ Admin Temasında Bootstrap CDN Eklenip Buton Ve Tablolar Bootstrap ile yapılmı
 ![Screenshot](https://user-images.githubusercontent.com/48470345/93140435-1c412400-f6eb-11ea-9d54-ab188097b071.png)
 
 # Veri Tabanı Oluşturma
-Veri Tabanın Oluşturmak İçin Web.Config Dosya Ayarlarındaki Data Source Kısmına Kendi Sql Serverınızı Yazmanız Gerekiyor.
-Sonrasında Pacgake Manager Console Kısmına >Enabled-Migrations Yazıp Enter Tuşuna Basınız.
-Oluşan Configurations Dosyası İçeriğini *AutomaticMigrationsEnabled = true;* Şeklinde Değiştiriniz.
-Sonrasında *update-database* Yazıp Enter Tuşuna Basınız.
-Bu İşlemleri Tam Olarak Yaptığınızda Veri Tabanı Oluşup Projeyi Başlattığınızda Proje Sorunsuz Çalışır.
+
+ 1. Veri Tabanın Oluşturmak İçin **Web.Config** Dosya Ayarlarındaki
+    `Data Source` Kısmına Kendi Sql Serverınızı Yazmanız Gerekiyor.
+ 2. Sonrasında Pacgake Manager Console Kısmına `Enabled-Migrations`
+    Yazıp Enter Tuşuna Basınız.
+ 3. Oluşan Configurations Dosyası İçeriğini `AutomaticMigrationsEnabled
+    = true;` Şeklinde Değiştiriniz.
+ 4. Sonrasında `update-database` Yazıp Enter Tuşuna Basınız.
+ 5. Bu İşlemleri Tam Olarak Yaptığınızda Veri Tabanı Oluşup Projeyi
+    Başlattığınızda Proje Sorunsuz Çalışır.
