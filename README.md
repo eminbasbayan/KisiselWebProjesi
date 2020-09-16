@@ -30,7 +30,7 @@
 
  1. Veri Tabanın Oluşturmak İçin **Web.Config** Dosya Ayarlarındaki
     `Data Source` Kısmına Kendi Sql Serverınızı Yazmanız Gerekiyor.
- 2. Sonrasında Pacgake Manager Console Kısmına `Enabled-Migrations`
+ 2. Sonrasında Package Manager Console Kısmına `Enabled-Migrations`
     Yazıp Enter Tuşuna Basınız.
  3. Oluşan Configurations Dosyası İçeriğini `AutomaticMigrationsEnabled
     = true;` Şeklinde Değiştiriniz.
